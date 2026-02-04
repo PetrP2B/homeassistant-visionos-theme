@@ -69,7 +69,7 @@ visionos:
   table-row-background-color: var(--primary-background-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   # Switches
-  switch-checked-track-color: var(--green-color)
+  switch-checked-track-color: var(--orange-color)
   switch-checked-button-color: "#FFF"
   switch-unchecked-track-color: var(--disabled-text-color)
   switch-unchecked-button-color: "#FFF"
