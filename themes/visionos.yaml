@@ -1,14 +1,14 @@
 visionos:
   modes:
     light:
-      background-image: "center / cover no-repeat fixed url('https://raw.githubusercontent.com/Nezz/homeassistant-visionos-theme/1.1/themes/day.jpg')"
+      background-image: "center / cover no-repeat fixed url('/local/themes/visionos/day.jpg')"
       primary-background-color: rgb(84, 80, 76)
       secondary-background-color: rgb(84, 80, 76)
       app-header-background-color: rgba(84, 80, 76, 0.3)
       ha-card-background: rgba(128, 128, 128, 0.3)
       app-theme-color: rgb(122, 114, 106) # Average header color, used on the top of the browser
     dark:
-      background-image: "center / cover no-repeat fixed url('https://raw.githubusercontent.com/Nezz/homeassistant-visionos-theme/1.1/themes/night.jpg')"
+      background-image: "center / cover no-repeat fixed url('/local/themes/visionos/night.jpg')"
       primary-background-color: rgb(25, 24, 22)
       secondary-background-color: rgb(25, 24, 22)
       app-header-background-color: rgba(25, 24, 22, 0.3)
@@ -33,10 +33,10 @@ visionos:
   sidebar-selected-icon-color: var(--primary-text-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # States and Badges
-  state-icon-color: var(--primary-text-color)
+  state-icon-color: "#6A6B74"
   state-icon-active-color: var(--yellow-color)
-  state-icon-unavailable-color: var(--disabled-text-color)
-  state-inactive-color: var(--disabled-text-color)
+  state-icon-unavailable-color: "#6A6B74"
+  state-inactive-color: "#6A6B74"
   paper-item-icon-active-color: var(--state-icon-active-color) # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/30
   # Sliders
   paper-slider-knob-color: "#FFFFFF"
@@ -108,7 +108,7 @@ visionos:
   ha-color-primary-95: "#fff5e6"
   # Other
   paper-dialog-background-color: rgba(55, 55, 55, 0.8) # e.g., background of more-info
-  paper-item-icon-color: white # also should mini-media-player icon white (but doesn't work by itself)
+  paper-item-icon-color: "#6A6B74" # also should mini-media-player icon white (but doesn't work by itself)
   more-info-header-background: rgba(25, 25, 25, 0.5)
   lumo-body-text-color: var(--primary-text-color) # see https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/42
   markdown-code-background-color: "#464646"
