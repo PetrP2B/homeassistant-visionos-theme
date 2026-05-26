@@ -1,6 +1,4 @@
 visionos:
-kukykukykuk :-)
-Moje verze: Chci tady mít modrou barvu.
   modes:
     light:
       background-image: "center / cover no-repeat fixed url('/local/themes/visionos/day.jpg')"
