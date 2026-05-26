@@ -16,7 +16,7 @@ visionos:
       app-theme-color: rgb(0, 0, 0)
   # Global
   lovelace-background: var(--background-image)
-  light-primary-color: rgb(241, 241, 241) # Icons on sidebar
+  light-primary-color: "#B6B6C1" # Icons on sidebar
   divider-color: rgba(152, 152, 157, 0.3) # from Apple systemGray dark mode
   accent-color: var(--primary-color)
   # Text
@@ -29,7 +29,7 @@ visionos:
   # Sidebar Menu
   sidebar-background-color: var(--secondary-background-color)
   sidebar-icon-color: var(--light-primary-color)
-  sidebar-text-color: var(--light-primary-color)
+  sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
   sidebar-selected-icon-color: var(--primary-text-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
