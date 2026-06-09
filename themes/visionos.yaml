@@ -157,6 +157,9 @@ visionos:
     :host {
       background: none !important;
     }
+    :host {
+      position: absolute !important;
+    }
   card-mod-card: |
     ha-card {
       backdrop-filter: unset !important;
