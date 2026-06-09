@@ -149,12 +149,30 @@ visionos:
 
   card-mod-theme: "visionos"
   card-mod-drawer: |
-    .mdc-drawer, .sidebar-shell {
-      background-color: var(--app-header-background-color) !important;
-      backdrop-filter: var(--ha-card-backdrop-filter);
+    /* Nastavení na PC: Menu jako vrstva nad obsahem */
+    .mdc-drawer {
+      background-color: rgba(76, 80, 84, 0.3) !important;
+      backdrop-filter: blur(8px) !important;
+      -webkit-backdrop-filter: blur(8px) !important;
+      position: fixed !important;
+      z-index: 5 !important;
+      height: 100% !important;
+      box-shadow: 5px 0px 25px rgba(0, 0, 0, 0.3) !important;
     }
+
+    /* Zajištění, že se dashboard pod menu neposune */
     :host {
       position: absolute !important;
+    }
+    
+    /* Větší zatmavení a silnější blur na mobilu */
+    @media (max-width: 768px) {
+      .mdc-drawer {
+        background-color: rgba(0, 0, 0, 0.85) !important;
+        backdrop-filter: blur(25px) !important;
+        -webkit-backdrop-filter: blur(25px) !important;
+        box-shadow: none !important;
+      }
     }
   card-mod-sidebar: |
     :host {
