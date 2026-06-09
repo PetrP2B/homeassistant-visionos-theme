@@ -160,7 +160,7 @@ visionos:
       box-shadow: 5px 0px 25px rgba(0, 0, 0, 0.3) !important;
     }
 
-    /* Zajištění, že se dashboard pod menu neposune */
+    /* Zajištění, že se dashboard pod menu neposuneddddd */
     :host {
       position: absolute !important;
     }
